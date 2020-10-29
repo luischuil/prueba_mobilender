@@ -1,0 +1,12 @@
+CLIENT_TYPES = (
+    ('NORMAL', 'NORMAL'),
+    ('PLATA', 'PLATA'),
+    ('ORO', 'ORO'),
+    ('PLATINO', 'PLATINO'),
+)
+
+ORDER_TYPES = (
+    ('CEDIS', 'CEDIS'),
+    ('SUCURSAL', 'SUCURSAL'),
+    ('EMPRESA_ASOCIADA', 'EMPRESA_ASOCIADA'),
+)
