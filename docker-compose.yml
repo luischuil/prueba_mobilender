@@ -1,0 +1,13 @@
+
+version: '3.1'
+services:
+  mobilender_django:
+    container_name: mobilender-django
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    command: bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./mobilender:/code
+    ports:
+      - "8000:8000"
