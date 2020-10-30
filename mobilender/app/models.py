@@ -16,7 +16,7 @@ class Order(models.Model):
     product = models.ForeignKey('app.Product', related_name='orders', on_delete=models.CASCADE)
     client = models.ForeignKey('app.Client', related_name='orders', on_delete=models.CASCADE)
     order_date = models.DateTimeField()
-    deliver_date = models.DateTimeField()
+    deliver_date = models.DateTimeField(null=True)
     priority = models.BooleanField(default=False)
     items = models.IntegerField(default=0)
     order_type = models.CharField(max_length=20, choices=ORDER_TYPES)
