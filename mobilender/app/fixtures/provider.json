@@ -1,0 +1,26 @@
+[
+    {
+        "model": "app.provider",
+        "pk": 1,
+        "fields": {
+            "name": "Estafeta",
+            "address": "Calle 12 entre 88 y 13A"
+        }
+    },
+    {
+        "model": "app.provider",
+        "pk": 2,
+        "fields": {
+            "name": "UPS",
+            "address": "Calle 11 entre 79-C y 63"
+        }
+    },
+    {
+        "model": "app.provider",
+        "pk": 3,
+        "fields": {
+            "name": "Fedex",
+            "address": "Calle 51 entre 91 y 22A"
+        }
+    }
+]

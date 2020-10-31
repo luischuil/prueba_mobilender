@@ -1,0 +1,46 @@
+[
+    {
+        "model": "app.client",
+        "pk": 1,
+        "fields": {
+            "code": "AV0001",
+            "name": "Ana Velazquez",
+            "image_url": "",
+            "address": "Calle 23 entre 45 y 23",
+            "client_type": "PLATINO"
+        }
+    },
+    {
+        "model": "app.client",
+        "pk": 2,
+        "fields": {
+            "code": "LC0001",
+            "name": "Luis Castro",
+            "image_url": "",
+            "address": "Calle 41 entre 77 y 63A",
+            "client_type": "PLATINO"
+        }
+    },
+    {
+        "model": "app.client",
+        "pk": 3,
+        "fields": {
+            "code": "GJ0001",
+            "name": "Gabriel Juarez",
+            "image_url": "",
+            "address": "Calle 22 entre 12 y 23",
+            "client_type": "ORO"
+        }
+    },
+    {
+        "model": "app.client",
+        "pk": 4,
+        "fields": {
+            "code": "SS0001",
+            "name": "Selene Sosa",
+            "image_url": "",
+            "address": "Calle 25 entre 26 y 32",
+            "client_type": "PLATINO"
+        }
+    }
+]

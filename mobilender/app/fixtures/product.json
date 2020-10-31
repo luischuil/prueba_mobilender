@@ -1,0 +1,34 @@
+[
+    {
+        "model": "app.product",
+        "pk": 1,
+        "fields": {
+            "code": "SN03345",
+            "description": "Sony MDREX14APB Audífonos intrauditivos"
+        }
+    },
+    {
+        "model": "app.product",
+        "pk": 2,
+        "fields": {
+            "code": "TUP03444",
+            "description": "Voltimetro Truper MUT-33"
+        }
+    },
+    {
+        "model": "app.product",
+        "pk": 3,
+        "fields": {
+            "code": "PAN00012",
+            "description": "Radio Panasonic RF-2400"
+        }
+    },
+    {
+        "model": "app.product",
+        "pk": 4,
+        "fields": {
+            "code": "DUR22290",
+            "description": "Pilas Duracell Copper negro"
+        }
+    }
+]

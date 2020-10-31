@@ -1,0 +1,170 @@
+[
+    {
+        "model": "app.order",
+        "pk": 1,
+        "fields": {
+            "order_number": "ORD0001",
+            "provider": 1,
+            "product": 1,
+            "client": 1,
+            "order_date": "2020-10-30T05:11:30.362Z",
+            "deliver_date": null,
+            "priority": true,
+            "items": 1,
+            "order_type": "CEDIS",
+            "distribution_center_store": "Almacén A",
+            "store_reference": "",
+            "store_code": "",
+            "company_reference": "",
+            "company_member_code": "",
+            "company_order_detail": ""
+        }
+    },
+    {
+        "model": "app.order",
+        "pk": 2,
+        "fields": {
+            "order_number": "ORD0002",
+            "provider": 1,
+            "product": 2,
+            "client": 1,
+            "order_date": "2020-10-30T05:11:30.362Z",
+            "deliver_date": null,
+            "priority": false,
+            "items": 2,
+            "order_type": "CEDIS",
+            "distribution_center_store": "Almacén B",
+            "store_reference": "",
+            "store_code": "",
+            "company_reference": "",
+            "company_member_code": "",
+            "company_order_detail": ""
+        }
+    },
+    {
+        "model": "app.order",
+        "pk": 3,
+        "fields": {
+            "order_number": "ORD0003",
+            "provider": 3,
+            "product": 3,
+            "client": 2,
+            "order_date": "2020-10-30T05:11:30.362Z",
+            "deliver_date": null,
+            "priority": false,
+            "items": 1,
+            "order_type": "SUCURSAL",
+            "distribution_center_store": "",
+            "store_reference": "Ref. 2312",
+            "store_code": "SUC00032",
+            "company_reference": "",
+            "company_member_code": "",
+            "company_order_detail": ""
+        }
+    },
+    {
+        "model": "app.order",
+        "pk": 4,
+        "fields": {
+            "order_number": "ORD0004",
+            "provider": 2,
+            "product": 3,
+            "client": 3,
+            "order_date": "2020-10-30T05:11:30.362Z",
+            "deliver_date": null,
+            "priority": true,
+            "items": 3,
+            "order_type": "SUCURSAL",
+            "distribution_center_store": "",
+            "store_reference": "Ref. 6647",
+            "store_code": "SUC00010",
+            "company_reference": "",
+            "company_member_code": "",
+            "company_order_detail": ""
+        }
+    },
+    {
+        "model": "app.order",
+        "pk": 5,
+        "fields": {
+            "order_number": "ORD0004",
+            "provider": 3,
+            "product": 4,
+            "client": 4,
+            "order_date": "2020-10-30T05:11:30.362Z",
+            "deliver_date": "2020-11-01T05:11:30.362Z",
+            "priority": true,
+            "items": 3,
+            "order_type": "EMPRESA_ASOCIADA",
+            "distribution_center_store": "",
+            "store_reference": "",
+            "store_code": "",
+            "company_reference": "Ref. 12344",
+            "company_member_code": "CO3345",
+            "company_order_detail": "Descripción orden compañía"
+        }
+    },
+    {
+        "model": "app.order",
+        "pk": 6,
+        "fields": {
+            "order_number": "ORD0006",
+            "provider": 2,
+            "product": 3,
+            "client": 2,
+            "order_date": "2020-10-30T05:11:30.362Z",
+            "deliver_date": null,
+            "priority": true,
+            "items": 6,
+            "order_type": "EMPRESA_ASOCIADA",
+            "distribution_center_store": "",
+            "store_reference": "",
+            "store_code": "",
+            "company_reference": "Ref. 12344",
+            "company_member_code": "CO3345",
+            "company_order_detail": "Descripción orden compañía"
+        }
+    },
+    {
+        "model": "app.order",
+        "pk": 7,
+        "fields": {
+            "order_number": "ORD0007",
+            "provider": 1,
+            "product": 1,
+            "client": 3,
+            "order_date": "2020-10-30T05:11:30.362Z",
+            "deliver_date": null,
+            "priority": false,
+            "items": 2,
+            "order_type": "SUCURSAL",
+            "distribution_center_store": "",
+            "store_reference": "Referencia sucursal",
+            "store_code": "codigo del almacén",
+            "company_reference": "",
+            "company_member_code": "",
+            "company_order_detail": ""
+        }
+    },
+    {
+        "model": "app.order",
+        "pk": 8,
+        "fields": {
+            "order_number": "ORD0008",
+            "provider": 3,
+            "product": 4,
+            "client": 1,
+            "order_date": "2020-10-30T05:11:30.362Z",
+            "deliver_date": null,
+            "priority": true,
+            "items": 5,
+            "order_type": "CEDIS",
+            "distribution_center_store": "Almacén #12",
+            "store_reference": "",
+            "store_code": "",
+            "company_reference": "",
+            "company_member_code": "",
+            "company_order_detail": ""
+        }
+    }
+]
