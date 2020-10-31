@@ -26,47 +26,47 @@ Los parámetros que recibe el endpoint será en formato json
 ```
 {
 	"order_number": "ORD0008",                    // número de orden
-	"provider": 3,									              // id del proveedor
-	"product": 4,									                // id del producto
-	"client": 1,									                // id del cliente
-	"order_date": "2020-10-30T05:11:30.362Z",  		// fecha de la orden
-	"priority": true,								              // prioridad
-	"items": 5,										                // cantidad solicitada
-	"order_type": "CEDIS",							          // tipo de orden
-	"distribution_center_store": "Almacén #12",		// referencia sucursal
+	"provider": 3,                                // id del proveedor
+	"product": 4,                                 // id del producto
+	"client": 1,                                  // id del cliente
+	"order_date": "2020-10-30T05:11:30.362Z",     // fecha de la orden
+	"priority": true,                             // prioridad
+	"items": 5,                                   // cantidad solicitada
+	"order_type": "CEDIS",                        // tipo de orden
+	"distribution_center_store": "Almacén #12",   // referencia sucursal
 }
 ```
 
 ** Ejemplo body para agregar pedido hacia una sucursal:** 
 ```
 {
-	"order_number": "ORD0007",						      // número de orden
-	"provider": 1,									            // id del proveedor
-	"product": 1,									              // id del producto
-	"client": 3,									              // id del cliente
-	"order_date": "2020-10-30T05:11:30.362Z",  	// fecha de la orden
-	"priority": false,								          // prioridad
-	"items": 2,										              // cantidad solicitada
-	"order_type": "SUCURSAL",						        // tipo de orden
-	"store_reference": "Referencia sucursal",		// referencia sucursal
-	"store_code": "codigo del almacén"				  // código de la sucursal
+	"order_number": "ORD0007",                  // número de orden
+	"provider": 1,                              // id del proveedor
+	"product": 1,                               // id del producto
+	"client": 3,                                // id del cliente
+	"order_date": "2020-10-30T05:11:30.362Z",   // fecha de la orden
+	"priority": false,                          // prioridad
+	"items": 2,                                 // cantidad solicitada
+	"order_type": "SUCURSAL",                   // tipo de orden
+	"store_reference": "Referencia sucursal",   // referencia sucursal
+	"store_code": "codigo del almacén"          // código de la sucursal
 }
 ```
 
 ** Ejemplo body para agregar pedido hacia una empresa asociada:** 
 ```
 {
-	"order_number": "ORD0006",						                // número de orden
-	"provider": 2,									                      // id del proveedor
-	"product": 3,									                        // id del producto
-	"client": 2,									                        // id del cliente
-	"order_date": "2020-10-30T05:11:30.362Z",  		        // fecha de la orden
-	"priority": true,								                      // prioridad
-	"items": 6,										                        // cantidad solicitada
-	"order_type": "EMPRESA_ASOCIADA",				              // tipo de orden
-	"company_reference": "Ref. 12344",						        // referencia empresa asociada
-	"company_member_code": "CO3345",						          // código empresa asociada
-	"company_order_detail": "Descripción orden compañía"	// detalle del pedido
+	"order_number": "ORD0006",                            // número de orden
+	"provider": 2,                                        // id del proveedor
+	"product": 3,                                         // id del producto
+	"client": 2,                                          // id del cliente
+	"order_date": "2020-10-30T05:11:30.362Z",             // fecha de la orden
+	"priority": true,                                     // prioridad
+	"items": 6,                                           // cantidad solicitada
+	"order_type": "EMPRESA_ASOCIADA",                     // tipo de orden
+	"company_reference": "Ref. 12344",                    // referencia empresa asociada
+	"company_member_code": "CO3345",                      // código empresa asociada
+	"company_order_detail": "Descripción orden compañía"  // detalle del pedido
 }
 ```
 ## Endpoint para consultar pedidos
@@ -146,7 +146,7 @@ El resultado tendrá el siguiente formato:
 $ docker ps
 
 #copie el valor del CONTAINER ID correspondiente a la imagen a continuación
-CONTAINER ID     IMAGE                       						  COMMAND
+CONTAINER ID     IMAGE                                    COMMAND
 a1ads6dt34ad     prueba_mobilender_mobilender_django      "bash -c 'python man…"
 
 #Sustituya el valor en lugar de <container-id>, este comando ejecutara las pruebas
